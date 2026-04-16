@@ -39,14 +39,10 @@ timeAxis = linspace(0, signalLength/fs, numFlames);
 
 
 imagesc (timeAxis, freqAxis, powerSpect);
-axis xy;
-c = colorbar;
-c.Label.String = ("利得[db]");
 
 xlabel("時間[s]");
 ylabel("周波数[Hz]")
 
-ylim([0, fs/2]);
 
 
 
